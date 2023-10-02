@@ -1,12 +1,11 @@
 import random
 
-def roll():
+def rolar_dado():
     valor_minimo = 1
     valor_maximo = 6
-    roll = random.ranint(valor_minimo, valor_maximo)
+    resultado_rolagem = random.ranint(valor_minimo, valor_maximo)
 
-    return roll
-
+    return resultado_rolagem
 
 
 
